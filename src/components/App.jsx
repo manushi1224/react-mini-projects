@@ -5,7 +5,7 @@ import Carousel from "../pages/Carousel";
 import NoPage from "../pages/Nopages";
 import QuoteGenerator from "../pages/QuoteGenerator";
 import Layout from "https://manushi1224.github.io/react-mini-projects/src/pages/Layout";
-import ToDO from "../pages/ToDO";
+import ToDO from "https://manushi1224.github.io/react-mini-projects/src/pages/ToDO";
 
 
 

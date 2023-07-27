@@ -11,13 +11,13 @@ import ToDO from "../pages/ToDO";
 
 export default function App(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="react-mini-projects">
             <Routes>
-                <Route path='/' element = {<Layout />}/>
-                <Route path='carousel' element ={<Carousel />}/>
-                <Route path='accordian' element = {<Accordian/>}/>
-                <Route path='quote-generator' element = {<QuoteGenerator/>}/>
-                <Route path='todo' element = {<ToDO/>}/>
+                <Route exact path='/react-mini-project' element = {<Layout />}/>
+                <Route path='/carousel' element ={<Carousel />}/>
+                <Route path='/accordian' element = {<Accordian/>}/>
+                <Route path='/quote-generator' element = {<QuoteGenerator/>}/>
+                <Route path='/todo' element = {<ToDO/>}/>
                 <Route path='*' element = {<NoPage/>}/>
             </Routes>
         </BrowserRouter>
